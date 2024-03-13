@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,h1,p{
+            padding:0;
+            margin:0;
+        }
+        header{
+            background-color: black;
+            text-align:center;
+            color:snow;
+            padding:20px;
+        }
+        .container{
+            display:flex;
+            min-height:100vh;
+            flex-direction: column;
+        }
+        
+        .main-content{
+            padding:20px;
+            flex:1;
+            background-color: #ced;
+            background-image: url('C:/Users/Swamy Dokka/Downloads/pexels-ian-turnell-709552.jpg');
+            background-position: 0 -500px;
+            color:white;
+           }
+        .login{
+            padding:20px;
+            float:right;
+            
+        }
+        footer{
+            background-color: black;
+            text-align:center;
+            color:snow;
+            padding:5px;
+            }
+</style>
+</head>
+<body>
+    
+    
+    <div class="container">
+        <header>
+            <h1>My first flex-box Layout</h1>
+        </header>
+    
+        <div class="main-content">
+            <h1>Welcome to our first flex-box website</h1>
+            <p>This is a basic example of a flex-box layout</p>
+       
+        <div class="login">
+        <fieldset>
+        <legend><h3>Login</h3> </legend>  
+        <form>
+        <label for="uname"><b>Username</b></label>
+        <input type="text" name="login" id="uname">
+        <br><br>
+        <label for="pwd"><b>Password</b></label>
+        <input type="password" name="login" id="pwd">
+        </form>
+        </fieldset>
+    </div>
+          
+    </div>
+        <footer>
+            <h3>Contact us at:swamydsvs@gmail.com</h3>
+            <p>#201, Akanksha Apartment</p>
+        </footer>
+    
+    </div>
+
+    </body>
+</html>
